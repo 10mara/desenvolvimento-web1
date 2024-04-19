@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            
+        }
+        h1{
+            /* Selecione todas as tags h1 */
+            color: aqua;
+            font-style: normal;
+
+
+        }
+        /* SELECIONE O ELEMENTO COM O  ID titulo_pincial */
+        #titulo_principal{
+            color: blue;
+        }
+        #conteudo_principal {
+            color: rgb(5, 49, 143);
+            text-decoration: underline;
+        }
+        /* Selecione todos os elem com a classe destaque */
+
+        p {
+            color: rgb(77, 73, 73);
+            
+        }
+        .destaque {
+            background-color: rgb(190, 189, 187);
+            color: blueviolet;
+
+        }
+        /* Selecione todos os elem com a classe cor_primaria*/
+
+        .cor_primaria {
+            color: rgb(245, 242, 238);
+        }
+        .container{
+            background-color: rgb(106, 188, 190);
+            border: 1px solid black;
+            font-style: italic;
+        }
+
+        /* Selecione tds as tags p q tenham a classe destaque */
+        p.destaque{
+            font-size: 20px;
+        }
+        p.destaque.cor_primaria {}
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1 id="titulo_principal">Primeiro título</h1>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officia architecto facilis deleniti laudantium ipsa, enim odit? Totam doloribus id blanditiis fugiat! Atque blanditiis adipisci explicabo minima quae quasi sunt ad?</p>
+        
+    </div>
+    <h1 class="destaque">Segundo título</h1>
+    <p class="destaque " >Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officia architecto facilis deleniti laudantium ipsa, enim odit? Totam doloribus id blanditiis fugiat! Atque blanditiis adipisci explicabo minima quae quasi sunt ad?</p>
+    <p id="conteudo_principal"class= "cor_primaria">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officia architecto facilis deleniti laudantium ipsa, enim odit? Totam doloribus id blanditiis fugiat! Atque blanditiis adipisci explicabo minima quae quasi sunt ad?</p>
+    <p class="cor_primaria destaque"> parágrafo</p>
+    
+
+    
+</body>
+</html>

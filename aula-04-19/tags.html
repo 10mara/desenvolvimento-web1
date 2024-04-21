@@ -1,13 +1,107 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>[Atividade] Tags de código</title>
+    <style>
+        h1{
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        }
+        h2{
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            color: blue;
+        }
+        h3{
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            color: darkblue;
+        }
+        p{
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            color: rgb(27, 10, 104);
+            text-align: justify;
+        }
+        kbd {
+            display: inline-block;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            padding: 0.1em 0.5em;
+            margin: 0 0.2em;
+            box-shadow: 0 1px 0px rgba(0, 0, 0, 0.2), 0 0 0 2px #fff inset;
+            background-color: #c0b3f3;
+}
+        
+    </style>
 </head>
 <body>
-    <h1>Tags de código</h1>
-    <h2></h2>
-    
+    <h1>Tags de código HTML</h1>
+    <h2>Tag Code</h2>
+    <p>A code tag é usada para definir um trecho de código de computador,ou seja, exibir uma parte do código de programação. O conteúdo interno é exibido na fonte monoespaçada padrão do navegador.</p>
+    <h3>Exemplo:</h3>
+    <p>
+        <pre>
+            <code>
+            #Crie um programa que simule uma calculadora básica.
+            #O usuário deve informar dois números e a operação desejada (+, -, *, /).
+            #O programa deve realizar o cálculo e exibir o resultado.
+            #---------------------------------------------#
+            
+            print ("Calculadora Básica \n")
+            num1 = eval(input("Digite o primeiro número:  \n"))
+            num2 = eval(input("Digite o segundo número:  \n"))
+            operacao= input("Digite qual operação vc deseja(soma,sub, mult,div): \n ")
+            
+            soma = num1+num2
+            sub = num1-num2
+            mult = num1*num2
+            div = num1/num2
+            
+            if operacao=='soma':
+                print(" O resultado desta soma é:",soma)
+            elif operacao=='sub':
+                print(" O resultado desta subtração é:",sub)
+            elif operacao=='mult':
+                print(" O resultado desta multiplicação é:",mult)
+            elif operacao=='div':
+                print(" O resultado desta divisão é:",div)
+            </code>
+           </pre>
+        
+    </p> 
+    <h2>Tag Samp</h2>
+    <p>A samp tag é usada para definir a saída de amostra de um programa de computador. O conteúdo interno é exibido na fonte monoespaçada padrão do navegador.</p>
+    <h3>Exemplo:</h3>
+    <p>
+        <pre>
+            <samp>Calculadora Básica 
+
+                Digite o primeiro número:  
+                120
+                Digite o segundo número:  
+                2
+                Digite qual operação vc deseja(soma,sub, mult,div): 
+                 div
+                 O resultado desta divisão é: 60.0</samp>
+           </pre>
+        
+    </p> 
+    <h2>Tag Pre</h2>
+    <p>A pre tag define texto pré-formatado.
+
+        O texto em um pre elemento é exibido em uma fonte de largura fixa e preserva espaços e quebras de linha. O texto será exibido exatamente como está escrito no código-fonte HTML.</p>
+    <h3>Exemplo:</h3>
+    <p>
+        <pre>            
+            <kbd>Ctrl+</kbd> - Cria um arquivo novo.
+            <kbd>Ctrl+O</kbd> - Abre um arquivo existente.
+            <kbd>Ctrl+S </kbd>- Salva as alterações.
+            <kbd>Ctrl+Shift+S</kbd> - Salva no dispositivo.
+            <kbd>Ctrl+C</kbd> - Copia.
+            <kbd>Ctrl+V</kbd> - Cola o item na área de tranferência.
+            <kbd>Home</kbd> - vai ao início do texto/linha.
+</pre>
+
+        
+    </p> 
 </body>
 </html>

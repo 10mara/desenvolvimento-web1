@@ -3,41 +3,40 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>css</title>
     <style>
-        * {
-            
-        }
         h1{
             /* Selecione todas as tags h1 */
             color: aqua;
-            font-style: normal;
+            font-style: italic;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 
 
         }
-        /* SELECIONE O ELEMENTO COM O  ID titulo_pincial */
+        /* SELECIONE O ELEMENTO COM O  ID titulo_principal */
         #titulo_principal{
             color: blue;
+            font-style: normal;
         }
         #conteudo_principal {
-            color: rgb(5, 49, 143);
+            color: rgb(16, 75, 201);
             text-decoration: underline;
         }
-        /* Selecione todos os elem com a classe destaque */
-
         p {
-            color: rgb(77, 73, 73);
+            color: rgb(114, 74, 74);
             
         }
+        /* Selecione todos os elem com a classe destaque */
         .destaque {
-            background-color: rgb(190, 189, 187);
-            color: blueviolet;
+            background-color: rgb(209, 173, 204);
+            color: rgb(86, 6, 160);
 
         }
         /* Selecione todos os elem com a classe cor_primaria*/
 
         .cor_primaria {
             color: rgb(245, 242, 238);
+            text-align: center;
         }
         .container{
             background-color: rgb(106, 188, 190);
@@ -47,9 +46,13 @@
 
         /* Selecione tds as tags p q tenham a classe destaque */
         p.destaque{
-            font-size: 20px;
+            font-size: 17px;
         }
-        p.destaque.cor_primaria {}
+        p.destaque.cor_primaria {
+            color: rgb(89, 72, 131);
+            font-weight: bold;
+            text-align: end;
+        }
     </style>
 </head>
 <body>
@@ -61,7 +64,7 @@
     <h1 class="destaque">Segundo título</h1>
     <p class="destaque " >Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officia architecto facilis deleniti laudantium ipsa, enim odit? Totam doloribus id blanditiis fugiat! Atque blanditiis adipisci explicabo minima quae quasi sunt ad?</p>
     <p id="conteudo_principal"class= "cor_primaria">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officia architecto facilis deleniti laudantium ipsa, enim odit? Totam doloribus id blanditiis fugiat! Atque blanditiis adipisci explicabo minima quae quasi sunt ad?</p>
-    <p class="cor_primaria destaque"> parágrafo</p>
+    <p class="cor_primaria destaque"> fim...</p>
     
 
     

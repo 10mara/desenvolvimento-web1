@@ -23,7 +23,7 @@ p {
 }
 .texto{
     line-height: 1.5;
-    font-family: 1.1em;
+    font-size: 1.1em;
     text-align: justify;
 }
 .importante{
@@ -37,6 +37,6 @@ p {
     text-align: center;
     background-color: darkgray;
     font-style: italic;
-    padding: 40px;
+    padding: 20px;
 
 }

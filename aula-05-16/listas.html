@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons"> 
+
+    <title>listas</title>
+    <style>
+
+        *{
+            margin: 0;
+            padding: 0;
+            /*border: 3px solid pink;*/
+            box-sizing: border-box;
+        }
+        ul.disciplinas{
+            list-style-type: disc;
+        }
+        ul.menu{
+            list-style-type: none;
+            margin-left: 5px;
+           
+
+        }
+        .menu li{
+            
+            background-color: blueviolet;
+            border: 2px solid black;
+            /*
+            border-width:1px
+            border-style: solid;
+            border-color: black;
+            margin-bottom: 5px;*/
+            padding-bottom: 5px;
+            /*padding-top: 10px;
+            padding-right: 10px;
+            padding-left: 10px;*/
+            /*padding: 10px 20px 30px 40px;*/
+            box-sizing: border-box;
+            padding: 10px;
+            width: 100px;
+            transition: 1s;
+            margin:10px 0
+
+        }
+        .menu li:hover{
+            background-color: blue;
+            color: rgb(253, 253, 253);
+            cursor: pointer;
+            transition: 0.5s;
+            border-radius: 5px;
+        }
+        
+        .link{
+            text-decoration: none;
+            color: rgb(55, 9, 97);
+            
+            
+        }
+        .link:hover{
+            background-color: blue;
+            color: wheat;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+        
+
+    </style>
+</head>
+<body>
+    <h1>Listas Ordenadas</h1>
+    <ol>
+        <li>item 1</li>
+        <li>item 2</li>
+        <li>item 3</li>
+    </ol>
+    <h1>Listas Não Ordenadas</h1>
+    <ul class="disciplinas">
+        <li>
+            <div>item 1</div>
+            <ul>
+                <li>
+                    item 1
+                    
+                    <ul>
+                        <li>item 1
+                            <ul>
+                                <li>item 1</li>
+                                <li>item 2</li>
+                                <li>item 3</li>
+                            </ul>
+                        </li>
+                        <li>item 2</li>
+                        <li>item 3</li>
+                    </ul>
+                </li>
+                <li>item 2</li>
+                <li>item 3</li>
+            </ul>
+        </li>
+        <li>item 2</li>
+        <li>item 3</li>
+    </ul>
+
+    <h1>listas personalizadas</h1>
+    <ul class="menu">
+        <li><a class="link"  href="https://www.shutterstock.com/image-vector/3d-realistic-vector-collection-golden-600nw-1955189575.jpg"><i class="material-icons">key</i>item 1</li></a>
+        <li><a class="link"  href="https://images.ecycle.com.br/wp-content/uploads/2021/05/18142206/raios-e-trovoes-hd.jpg"><i class="material-icons">bolt</i>item 2</li></a>
+        <li><a class="link"  href="https://cartorionobrasil.com.br/wp-content/uploads/2018/08/bloqueio-via-cartorio.png"><i class="material-icons">block</i>item 3</li>
+    </ul></a>
+    
+    <h1>Links</h1>
+    <p>link <a href="">aqui</a></p>
+    <a  class="link" href="https://www.shutterstock.com/image-vector/3d-realistic-vector-collection-golden-600nw-1955189575.jpg">chaves</a>
+
+    <h1><a href="./gradiente.html">Exemplo gradiente</a></h1>
+    <p>Confira melhor os icons clicando aqui <a href="https://www.w3schools.com/w3css/w3css_icons.asp">icons-w3schools</a></a> ou aqui <a href="https://fonts.google.com/icons?icon.size=24&icon.color=%235f6368">icons-google</a>.</p>
+
+</body>
+</html>

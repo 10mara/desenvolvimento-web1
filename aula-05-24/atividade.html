@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -13,8 +13,12 @@
             margin: 0;
             box-sizing: border-box;
         }
-        h1{
-            color: #061826;
+        h1,h2{
+            color: #09273f;
+            text-align: center;
+        }
+        h3{
+            color: #89AAE6;
             text-align: center;
         }
         .container{
@@ -70,6 +74,59 @@
             background-color: #AC80A0;
             
         }
+        p{
+            text-align: justify;
+            padding: 5px;
+            margin: 5px;
+            text-indent: 10px;
+            font-size: larger;
+        }
+        ul{
+            display: inline-block;
+            padding: 3px 30px;
+            height: 80px;
+            
+        }
+        img{
+            max-width: 50%;
+            height: auto;
+            border-radius: 10px;
+            opacity: 0.8;
+            display: block;
+            margin: 0 auto;
+        }
+        .utfpr{
+            max-width: 20%;
+            height: auto;
+            border-radius: 10px;
+            opacity: 2;
+            display: block;
+            margin: 10px;
+            clip-path: circle(50%);
+        }
+        #UTFPR a{
+            
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            padding: 0.1em 0.5em 0.5em;
+            margin: 0 0.2em ;
+            box-shadow: 0 1px 0px rgba(0, 0, 0, 0.2), 0 0 0 2px #fff inset;
+            background-color: #c0b3f3;
+            
+        }
+        #UTFPR a:hover{
+            background-color: #061826;
+            color: #e0cc14;
+            border: 1px solid #c0b3f3;
+            box-shadow: 0 1px 0px rgba(0, 0, 0, 0.2), 0 0 0 2px #c0b3f3 inset;
+        }
+        #cont{
+            display: flex;
+           
+        }
 
 
     </style>
@@ -79,25 +136,62 @@
         <div id="menu">
             <ul>
                 <li><a href="#menu">Home</a></li>
-                <li><a href="#secao1">Seção1</a></li>
-                <li><a href="#secao2">Seção2</a></li>
-                <li><a href="#secao3">Seção3</a></li>
+                <li><a href="#secao1">História</a></li>
+                <li><a href="#secao2">Arpanet</a></li>
+                <li><a href="#secao3">WWW</a></li>
                 <li><a href="#contatos">Contatos</a></li>
 
 
             </ul>
         </div>
         <div id="secao1">
-            <h1>Seção 1</h1>
+            <h1>História da Internet: quem criou e quando surgiu</h1>
+            <br>
+            <br>
+            <p>A <strong>história da internet</strong> começa no ambiente da Guerra Fria (1945-1991). As duas super potências envolvidas, Estados Unidos e União Soviética, estavam divididas nos blocos socialista e capitalista e disputavam poderes e hegemonias.</p>
+            <img src="https://th.bing.com/th/id/R.1a4d3e2ce8e9dd861461bfe089c44e8c?rik=ZV9c0AOyMBRcmg&pid=ImgRaw&r=0" alt="internet">
         </div>
         <div id="secao2">
-            <h1>Seção 2</h1>
+            <br>
+            <h2>Arpanet e a origem da internet</h2>
+            <br>
+            <br>
+            <p>Com o intuito de facilitar a troca de informações, pois temiam ataques dos soviéticos, o Departamento de Defesa dos Estados Unidos (ARPA - Advanced Research Projects Agency) criou um sistema de compartilhamento de informações entre pessoas distantes geograficamente, a fim de facilitar as estratégias de guerra.</p>
+            <p>Nesse momento, surge o protótipo da primeira rede de internet, a Arpanet (Advanced Research Projects Agency Network).</p>
+            <p>Assim, no dia 29 de outubro de 1969 foi estabelecida a <strong>primeira conexão</strong> entre a Universidade da Califórnia e o Instituto de Pesquisa de Stanford. Foi um momento histórico, uma vez que o primeiro e-mail foi enviado.</p>
+            <br>
+            <img src="https://th.bing.com/th/id/OIP.DzREhgqpP0uM7TrGtIUIxQHaB5?rs=1&pid=ImgDetMain" alt="Arpanet">
         </div>
         <div id="secao3">
-            <h1>Seção 3</h1>
+            <br>
+            <h2>Criação do www</h2>
+            <br>
+            <p>Já na década de 90, o cientista, físico e professor britânico Tim Berners-Lee desenvolveu um navegador ou browser, a <strong>World Wide Web</strong> (www), a Rede Mundial de Computadores - Internet.</p>
+            <p>Sua criação é responsável por apresentar ao mundo o modo como utilizamos a internet atualmente. Portanto, apesar de não ter sido o inventor da conexão entre computadores geograficamente distantes (a já citada Arpanet), foi o britânico quem desenvolveu o modelo que acessamos cotidianamente.</p>
+            <p>A partir disso, a década de 90 ficou conhecida como o "boom da internet", pois foi quando ela se popularizou pelo mundo. Essa popularização aconteceu com o surgimento de novos browsers ou navegadores e o aumento do número de usuários, navegadores da internet.</p>
+            <p>Exemplos de navegadores da época:</p>
+            <p>
+                <ul>
+                    <li>Internet Explorer;</li>
+                    <li>Netscape;</li>
+                    <li>Mozilla Firefox;</li>
+                    <li>Google Chrome;</li>
+                    <li>Opera;</li>
+                    <li>Lynx.</li>
+                </ul>
+            </p>
         </div>
         <div id="contatos">
-            <h1>Contatos</h1>
+            <br>
+            <h3>Contatos</h3>
+            <br>
+            <br>
+            <div id="cont">
+            <img class="utfpr" src="https://th.bing.com/th/id/OIP.i3ISDd8gxFbLVBGH77LVjwHaHa?rs=1&pid=ImgDetMain" alt="utfpr">
+            <p id="UTFPR"> <a href="https://www.google.com/search?q=utfpr+cm&rlz=1C1CHZL_pt-BRBR742BR792&oq=utfpr+cm&gs_lcrp=EgZjaHJvbWUyBggAEEUYOTIGCAEQRRg8MgYIAhBFGDzSAQoxNDcyOGowajE1qAIIsAIB&sourceid=chrome&ie=UTF-8">Confira aqui mais informações sobre a <br> UTFPR e entre em contato agr!</a> </p>
+        </div>
+            
+
         </div>
     </div> 
 </body>

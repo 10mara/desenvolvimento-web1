@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        .container{
+            width: 100vw;
+            height: 100vh;
+            background-color: rgb(214, 182, 245);
+            /*trabalha com um eixo principal x e um eixo secudário y*/
+            display: flex;
+            flex-direction: row-reverse;
+            flex-direction: column;
+            /*justify-content: center;*/
+            /*justify-content: flex-end;
+            justify-content: flex-start;
+            */align-items: center;
+            justify-content: space-around;
+            align-items: flex-start;
+            flex-wrap: wrap;
+            align-content: space-around;
+            
+            /*justify-content: space-between;justify-content: space-around;
+            flex-wrap: wrap;*/
+            
+            /*align-content: center;align-content: space-around;*/
+            
+
+        }
+        .box{
+            width: 6.25rem;
+            height: 6.25rem;
+            /*background-color: rgb(120, 120, 223);*/
+            border: 2px solid black;
+            /*display: inline-block;*/
+            /*border-radius: 50%;*/
+        }
+        .bgAzul{
+            background-color: blue;
+        }
+        .bgRosa{
+            background-color:pink;
+        }
+        .bgRoxo{
+            background-color: purple;
+        }
+        .flexCenter{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+        }
+        .posicaofixa{
+            position: fixed;
+            bottom: 10px;
+            right: 10px;
+        }
+       
+    </style>
+
+</head>
+<body>    
+
+    <div class="container">
+        <div class="box flexCenter bgAzul">1</div>
+        <div class="box bgRosa">2</div>
+        <div class="box bgRoxo">3</div>
+        <div class="box flexCenter bgAzul">1</div>
+        <div class="box bgRosa">2</div>
+        <div class="box bgRoxo">3</div>
+        <div class="box flexCenter bgAzul">1</div>
+        <div class="box bgRosa">2</div>
+        <div class="box bgRoxo">3</div>
+    
+
+
+
+    </div>
+    
+</body>
+</html>

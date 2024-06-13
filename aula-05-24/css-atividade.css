@@ -1,0 +1,182 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@200..900&display=swap');
+:root{
+    --altura-menu: 80px;
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Inconsolata", monospace;
+}
+h1,h2{
+    color: #09273f;
+    text-align: center;
+}
+h3{
+    color: #89AAE6;
+    text-align: center;
+}
+.container{
+    background-color: #0471A6;
+    width: 100vw;
+    height: 120vh;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+#menu{
+    height: var(--altura-menu);
+    background-color: #061826;
+}
+#menu ul{
+    display: flex;
+   
+}
+#menu li{
+    list-style: none;
+    /*display: inline-block;*/
+}
+
+#menu a {
+    display: inline-block;
+    padding: 25px 15px;
+    height: 80px;
+    text-decoration: none;
+    color: #89AAE6;
+    transition: 0.3;
+}
+#menu a:hover{
+    background-color: #AC80A0;
+    color: #061826;
+}
+div#secao1{
+    width: 100vw;
+    height:calc(120vh - var(--altura-menu));
+    
+
+}
+div#secao2{
+    width: 100vw;
+    height: 120vh;
+    background-color: #3685B5;
+}
+div#secao3{
+    width: 100vw;
+    height: 120vh;
+    background-color: #89AAE6;
+}
+div#contatos{
+    width: 100vw;
+    height: 50vh;
+    background-color: #AC80A0;
+    
+}
+p{
+    text-align: justify;
+    padding: 5px;
+    margin: 5px;
+    text-indent: 10px;
+    font-size: larger;
+}
+
+ul{
+    display: inline-block;
+    padding: 3px 30px;
+    height: 80px;
+    
+}
+img{
+    max-width: 30%;
+    height: auto;
+    border-radius: 10px;
+    opacity: 0.8;
+    display: block;
+    margin: 0 auto;
+}
+.utfpr{
+    max-width: 10%;
+    height: auto;
+    border-radius: 10px;
+    opacity: 2;
+    display: block;
+    margin: 20px;
+    clip-path: circle(50%);
+}
+#UTFPR a{
+    
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 0.1em 0.5em 0.5em;
+    margin: 0 0.2em ;
+    box-shadow: 0 1px 0px rgba(0, 0, 0, 0.2), 0 0 0 2px #fff inset;
+    background-color: #c0b3f3;
+    
+}
+#UTFPR a:hover{
+    background-color: #061826;
+    color: #e0cc14;
+    border: 1px solid #c0b3f3;
+    box-shadow: 0 1px 0px rgba(0, 0, 0, 0.2), 0 0 0 2px #c0b3f3 inset;
+}
+#cont{
+    display: flex;
+   
+}
+.BG{
+    background-image: url(https://th.bing.com/th/id/R.1a4d3e2ce8e9dd861461bfe089c44e8c?rik=ZV9c0AOyMBRcmg&pid=ImgRaw&r=0);
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size:3.5em;
+    background-size: cover;
+    background-position: center;
+    margin-top: 100px;
+    background-attachment: fixed;
+    opacity: 0.5;
+
+}
+.bg2{
+    background-image: url(https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg9ANOXxKjdTSSF1fGZfbk-scsZoHCIGC1EMGHRQA-Fa9CEA7OIGtXe0EcgqRQlSrysOurg4ZFeFsowug-NpdvGHg9m62nHQuqY9md7wjCH3ypZIBgKIPX_9GqLa9A0MWznUGO9piQQaYM/w1200-h630-p-k-no-nu/02-28+Efemerides+de+Tecnologia+ARPANET.jpg);
+    height: 100px;
+    font-size:3.5em;
+    background-size: cover;
+    background-position: center;
+    margin-top: 100px;
+    background-attachment: fixed;
+    opacity: 0.5;
+
+}
+.bg3{
+    background-image: url(https://daccord.io/wp-content/uploads/2022/05/Coding.jpg);
+    height: 100px;
+    font-size:3.5em;
+    background-size: cover;
+    background-position: center;
+    margin-top: 100px;
+    background-attachment: fixed;
+    opacity: 0.5;
+
+}
+.homes{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    bottom: 1rem;
+    right: 1rem;
+    background-color: #0471A6;
+    padding: .7rem;
+    border-radius: 50%;
+
+    width: 4rem;
+    height: 4rem;
+    border: 1px solid white;
+
+    z-index: 999;
+}
+.link{
+   color: white;
+   font-weight: bolder;
+}

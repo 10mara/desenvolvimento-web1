@@ -4,70 +4,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Atividade 1</title>
-    <style>
-        @import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&display=swap');
-
-        :root {
-            --altura-topo: 10vh;
-            --altura-rodape: 10vh;
-        }
-
-        *{
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
-        p{
-            font-family: "Caveat", cursive;
-            font-size: 2rem;
-        }
-        .container{
-            display: flex;
-            flex-wrap: wrap;
-        }
-        .topo{
-            width: 100vw;
-            height: var(--altura-topo);
-            padding: 1rem;
-            background-color: rgb(247, 221, 135) ;
-           
-            border: 2px solid black;
-        }
-        .side{
-            padding: 1rem;
-            background-color: skyblue;
-            flex: 2;
-            height: calc(100vh - var(--altura-topo) - var(--altura-rodape));
-            border: 2px solid black;
-
-        }
-        .cont{
-            padding: 1rem;
-            background-color: palegreen;
-            flex: 5;
-            height: calc(100vh - var(--altura-topo) - var(--altura-rodape));
-            border: 2px solid black;
-
-        }
-        .roda{
-            padding: 1rem;
-            background-color: pink;
-            
-            width: 100vw;
-            height: var(--altura-rodape);
-            border: 2px solid black;
-
-        }
-       
-
-    </style>
+    <link rel="stylesheet" href="./css1.css">
 </head>
 <body>
     <div class="container">
-        <div class="topo"><p>topo</p></div>
-        <div class="side"><p>sidebar</p></div>
-        <div class="cont"><p>conteúdo</p></div>
-        <div class="roda"><p>rodapé</p></div>
+        <header class="topo"><p>topo</p></header>
+        <aside class="side"><p>sidebar</p></aside>
+        <main class="cont"><p>conteúdo</p></main>
+        <footer class="roda"><p>rodapé</p></footer>
     </div>
 </body>
 </html>

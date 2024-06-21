@@ -1,0 +1,72 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   
+    
+}
+h1{
+    text-align: center;
+    color: white;
+    
+}
+.container{
+flex-direction: column;
+background-color: royalblue;
+min-height: 100vh;
+padding: 10px;
+display: flex;
+justify-content: center;
+gap: 20px;
+
+}
+.box{
+    width: 250px;
+    height: 300px;
+}
+.containercard{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  gap: 3rem;
+}
+.card{
+    padding: 20px;
+    
+    background-color: white;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    
+}
+.plano-nome{
+    font-weight: bold;
+}
+.plano-valor{
+    font-weight: bold;
+    color: royalblue;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.5rem;
+}
+.plano-descricao ul{
+    text-align: center;
+    list-style-type: none;
+    font-size: 0.7rem;
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(119, 119, 119);
+}
+.plano-comprar{
+    background-color: royalblue;
+    padding-bottom: 10px;
+    box-sizing: border-box;
+    padding: 15px;
+    width: 125px;
+    border-radius: 5px;
+    color: white;
+    font-size: 14px;
+    text-align: center;
+    font-weight: bold;
+}
+

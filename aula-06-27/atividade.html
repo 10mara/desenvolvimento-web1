@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+    .lista{
+
+        /* border-width: 1px;
+        border-style: solid;
+        border-color: red; */
+        border: 10px solid rgb(81, 155, 252);
+        padding: 2rem;
+        height: 100%;
+        width: 100%;
+
+    }
+
+    .list-item img{
+        flex-shrink: 0;
+        clip-path: circle(50%);
+
+    }
+    .list-item{
+        display: flex;
+        align-items: center;
+        padding: 1rem;
+        border-bottom: 1px solid rgb(199, 198, 198);
+        
+    }
+    .list-item:nth-last-child(1){
+        border-bottom: none;
+    
+    }
+
+
+    .conteiner{
+        flex-grow: 1;
+        padding: 1rem;
+        
+       
+    }
+    p{
+        color: rgb(146, 144, 144);
+    }
+
+    </style>
+</head>
+<body>
+    <ul class="lista">
+        <li class="list-item">
+            <img src="https://randomuser.me/api/portraits/women/2.jpg" alt="imag1">
+            <div class="conteiner">
+                <h3>Sonia Bradley</h3>
+                <p>5704 W Belt Line Rd</p>
+            </div>
+           
+        </li>
+        <li class="list-item">
+            <img src="https://randomuser.me/api/portraits/men/66.jpg" alt="imag2">
+            <div class="conteiner">
+                <h3>Allan Hamilton</h3>
+                <p>2538 Country Club Rd</p>
+            </div>
+           
+        </li>
+        <li class="list-item">
+            <img src="https://randomuser.me/api/portraits/women/24.jpg" alt="imag3">
+            <div class="conteiner">
+                <h3>Marian Hernandez</h3>
+                <p>8482 Daisy Dr</p>
+            </div>
+            
+        </li>
+        <li class="list-item">
+            <img src="https://randomuser.me/api/portraits/women/3.jpg" alt="imag4">
+            <div class="conteiner">
+                <h3>Louise Miller</h3>
+                <p>5172 Hogan St</p>
+            </div>
+            
+        </li>
+    </ul>
+</body>
+</html>

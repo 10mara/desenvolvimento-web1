@@ -17,7 +17,7 @@
         let m = c*((1+t)** p)
 
         // Saída
-        divSaida = window.print("Montante é ",m, " e seu capital é igual a ", c, " totalizando ",(m-c))
+        divSaida = document.write("Montante é ",m, " e seu capital é igual a ", c, " totalizando ",(m-c))
         
     }
  

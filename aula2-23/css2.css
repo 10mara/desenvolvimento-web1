@@ -1,0 +1,48 @@
+h1{
+    color: blueviolet;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 50px;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+    border: 1px solid black;
+    padding: 15px;
+}
+label{
+    display: flex;
+    font-size: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+input{
+    background-color: rgb(157, 157, 240);
+    border: 2px solid rgb(20, 20, 78);
+    border-radius: 4px;
+    padding:0.5rem ;
+    color: rgb(24, 24, 104);
+    /*outline: none;*/
+}
+#calcular{
+    padding: 20px;
+    font-size:20px;
+    font-weight: bold;
+    color: rgb(113, 4, 255);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+#saida{
+    display: flex;
+    border: 1px solid black;
+    background-color: rgb(92, 97, 141);
+    width: 20rem;
+    height: 5rem;
+    margin-top: 1rem;
+    padding: 5px;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 2rem;
+    
+}

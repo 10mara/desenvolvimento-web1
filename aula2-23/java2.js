@@ -3,7 +3,6 @@ let inputProd = document.getElementById("prod")
 let divSaida = document.getElementById("saida")
 
 let botaoCalcular = document.getElementById("calcular")
-// vincula a fç com o botao
 botaoCalcular.onclick= calculaTroco
 
 function calculaTroco(){
@@ -17,7 +16,6 @@ function calculaTroco(){
     let ced10 = resto/10
     let moeda1= resto%10
     // Saída
-    //document.write("IMC = ",imc)
     divSaida = document.write("Será necessário ", ced20, " de 20 e ", ced10, " de 10 e ", moeda1," de 1 real.")
 
 }

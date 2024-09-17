@@ -13,14 +13,15 @@ function calculaMulta(){
     let veiculo = Number(inputVei.value)
     let max20= velM+(velM*0.20)
     let max50= velM+(velM*0.50)
+    let conta = (veiculo - velM)/velM
     if (veiculo <= max20){
-        r= "Você excedeu até 20% da velocidade máxima. Sua multa é de r$ 130,16"
+        r = "Você excedeu " + conta*100 +"% que é até 20% da velocidade máxima. Sua multa é de R$ 130,16"
     }
-    else if(max20 < veiculo && veiculo < max50){
-        r= "Você excedeu até 50% da velocidade máxima. Sua multa é de r$ 195,23"
+    else if(max20 < veiculo && veiculo < max50 || veiculo==max50){
+        r = "Você excedeu "+ conta*100 + "% que é até 50% da velocidade máxima. Sua multa é de R$ 195,23"
     }
     else if (veiculo > max50) {
-        r= "Você excedeu mais que 50% da velocidade máxima. Sua multa é de r$ 880,41"
+        r = "Você excedeu " + conta*100 +"% que é mais que 50% da velocidade máxima. Sua multa é de R$ 880,41"
     }
     
 

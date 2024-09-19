@@ -3,7 +3,7 @@ while(multiplicador <= 10){
     let resultado = 2 * multiplicador
     console.log("2 X ", multiplicador, "= ", resultado)
     console.log('2 X ', multiplicador, '=', resultado)
-    console.log(`2 X  ${multiplicador} = , ${resultado}`)
+    console.log(`2 X  ${multiplicador} = ${resultado}`)
     multiplicador ++
 }
 

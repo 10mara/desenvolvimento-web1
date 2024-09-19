@@ -1,4 +1,6 @@
-//A estrutura condicional switch em JavaScript é usada quando você precisa comparar o valor de uma variável ou expressão contra várias opções possíveis. Isso torna o código mais limpo e legível em comparação com o uso de várias instruções if-else.
+//A estrutura condicional switch em JavaScript é usada quando você precisa comparar o valor de uma variável ou 
+//expressão contra várias opções possíveis. Isso torna o código mais limpo e legível em comparação com o uso de 
+//várias instruções if-else.
 
 function letraD(opcao) {
     switch (opcao) {

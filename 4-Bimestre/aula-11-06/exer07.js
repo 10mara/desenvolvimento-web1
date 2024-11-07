@@ -6,7 +6,7 @@ function mergeArrays(arr1,arr2){
     for (let i = 0; i <= arr1.length-1; i++) {
       lista.push(arr1[i])
     }
-     for (let i = 0; i <= arr2.length-1; i++) {
+    for (let i = 0; i <= arr2.length-1; i++) {
       lista.push(arr2[i])
     } return lista
   }
@@ -19,3 +19,20 @@ function mergeArrays(arr1,arr2){
   function mergeArrays2(arr1, arr2) {
     return [...arr1, ...arr2];  // Combina arr1 e arr2 em um novo array
   }
+
+  let vetor1 = [10,20,30]
+  let vetor2 = [100,200,300]
+  
+  let vetor = [...vetor1, ...vetor2]
+  
+  
+  
+  
+  console.log(vetor)
+
+
+  
+
+
+
+  
